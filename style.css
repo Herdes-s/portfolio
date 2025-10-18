@@ -6,14 +6,16 @@
 }
 
 body {
-    background: linear-gradient(to top, black,rgb(127, 182, 255), rgb(255, 255, 255),rgb(127, 182, 255), black) no-repeat top center;
+    /* background: linear-gradient(to top, black,rgb(127, 182, 255), rgb(255, 255, 255),rgb(127, 182, 255), black) no-repeat top center; */
+    background: linear-gradient(to top,#0E0929, #92ACFF );
     height: 100vh;
     text-align: center;
+    color: #0E0929;
 }
 
 img {
     width: 100px;
-    border: 5px solid rgb(0, 132, 255);
+    border: 5px solid #92ACFF;
     border-radius: 50%;
 }
 
@@ -38,7 +40,7 @@ li {
 
 main {
     background: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgb(0, 132, 255);
+    border: 1px solid #92ACFF;
     border-radius: 25px;
     margin: 5px;
     padding: 10px;
@@ -49,8 +51,10 @@ main {
 }
 
 #ola {
-    background: rgba(0, 132, 255, 0.1);
+    margin: 10px;
+    background: #0e0929;
     border-radius: 10px;
+    color: #92ACFF;
 }
 
 p {
@@ -69,10 +73,10 @@ p {
 #habilidades label{
     cursor: pointer;
     padding: 5px 10px;
-    background: rgb(0, 132, 255);
-    color: white;
+    background: #92ACFF;
+    color: #0E0929;
     border-radius: 3px;
-    border: 1px solid white;
+    border: 1px solid #0E0929;
     margin-right: 6px;
     transition: 0.2s;
     display: inline-block;
@@ -89,10 +93,10 @@ p {
 
 #habilidades input[type="radio"]:checked + label,
 #habilidades label:has(input[type="radio"]:checked) {
-  background: white;
-  color: rgb(0, 132, 255);
+  background: #0E0929;
+  color: #92ACFF;
   font-weight: bold;
-  border: 2px solid rgb(0, 132, 255);
+  border: 2px solid #92ACFF;
 }
 
 #texto {
@@ -100,11 +104,12 @@ p {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    border: solid rgb(0, 132, 255);
+    border: solid #92ACFF;
+    color: #0E0929;
 }
 
 footer  {
-    background: rgb(0, 132, 255);
-    color: white;
+    background: #92ACFF;
+    color: #0E0929;
     padding: 5px;
 }
