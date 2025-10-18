@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoloio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Sobre mim</li>
+            <li>Projetos</li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div id="apresentacao">
+                <img src="./imgs/herdes.jpg" alt="Imagem de Ernand">
+                <h1>Ernand Soares</h1>
+                <p id="alternativo">Herdes, Mizum</p>
+                <h2>Desenvolvedor web | Dev. Front-End</h2>
+                <p id="ola">Olá, esse é um site para mostrar minhas abilidades, experiencias e trabalhos feitos.</p>
+            </div>
+            <div id="habilidades">
+
+                <h3>Habilidades</h3>
+
+                <label><input type="radio" name="abilidade" class="abilidades" onclick="botaoPrecionado('HTML')"><span>HTML</span></label>
+
+                <label><input type="radio" name="abilidade" class="abilidades" onclick="botaoPrecionado('CSS')"><span>CSS</span></label>
+
+                <label><input type="radio" name="abilidade" class="abilidades" onclick="botaoPrecionado('JavaScript')"><span>JavaScript</span></label>
+
+                <p id="texto">Mais informações...</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Por herdes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

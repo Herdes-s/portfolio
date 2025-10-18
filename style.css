@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to top, black,rgb(127, 182, 255), rgb(255, 255, 255),rgb(127, 182, 255), black) no-repeat top center;
+    height: 100vh;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    border: 5px solid rgb(0, 132, 255);
+    border-radius: 50%;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 25px 25px;
+    margin: 0 0 5px 0;
+    padding: 15px;
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+li {
+    cursor: pointer;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 25px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#apresentacao {
+    padding: 10px;
+}
+
+#ola {
+    background: rgba(0, 132, 255, 0.1);
+    border-radius: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+#alternativo {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 0 10px 0;
+}
+
+#habilidades h3{
+    margin: 10px;
+}
+
+#habilidades label{
+    cursor: pointer;
+    padding: 5px 10px;
+    background: rgb(0, 132, 255);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-right: 6px;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+#habilidades input[type="radio"] {
+    display: none;
+}
+
+#habilidades label:hover {
+    opacity: 0.8;
+    transform: scale(1.09);
+}
+
+#habilidades input[type="radio"]:checked + label,
+#habilidades label:has(input[type="radio"]:checked) {
+  background: white;
+  color: rgb(0, 132, 255);
+  font-weight: bold;
+  border: 2px solid rgb(0, 132, 255);
+}
+
+#texto {
+    background: rgb(179, 221, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid rgb(0, 132, 255);
+}
+
+footer  {
+    background: rgb(0, 132, 255);
+    color: white;
+    padding: 5px;
+}
