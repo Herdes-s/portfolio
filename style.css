@@ -11,6 +11,8 @@ body {
     height: 100vh;
     text-align: center;
     color: #0E0929;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 img {
@@ -36,6 +38,19 @@ ul {
 
 li {
     cursor: pointer;
+}
+
+li a {
+    color: #0E0929;
+    background: #92acff69;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+li a:hover {
+    background: #0E092969;
+    color: #92acff;
 }
 
 main {
@@ -100,11 +115,11 @@ p {
 }
 
 #texto {
-    background: rgb(179, 221, 255);
+    background: #92acff;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    border: solid #92ACFF;
+    border: solid #0E0929;
     color: #0E0929;
 }
 
@@ -112,4 +127,5 @@ footer  {
     background: #92ACFF;
     color: #0E0929;
     padding: 5px;
+    border-radius: 10px;
 }
