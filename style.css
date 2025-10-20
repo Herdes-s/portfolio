@@ -61,6 +61,12 @@ main {
     padding: 10px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 #apresentacao {
     padding: 10px;
 }
